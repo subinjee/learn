@@ -1,0 +1,140 @@
+<!DOCKTYPE html>
+<html>
+    <head>
+        <!--내부 CSS Internal-->
+        <style>
+            p {color:green;margin-left:20px;}
+        </style>
+        
+        <meta charset="UTP-8"> <!--특정 브라우저에서 글자가 깨지지 않도록 선언-->
+        <title>CSS 강좌</title>
+        <link rel="stylesheet" href="style.css"> <!--외부 css파일 연결하기 External-->
+    </head>
+    
+    <body>
+        <div class="top">
+            복잡한 웹페이지의 레이아웃을 잡기 위한 박스 모델 연습.</br>HTML CSS 공부 재밌어요!
+        </div> <!--div요소는 다용도로 쓸 수 있는 박스와 같다-->
+        
+        <ul>
+            <li><a href="#">메일</a></li>
+            <li><a href="#">카페</a></li>
+            <li><a href="#">블로그</a></li>
+            <li><a href="#">지식iN</a></li>
+            <li><a href="#">쇼핑</a></li>
+            <li class="white"><a href="#">사전</a></li>
+            <li class="white"><a href="#">뉴스</a></li>
+            <li class="white"><a href="#">증권</a></li>
+            <li class="white"><a href="#">부동산</a></li>
+            <li class="white"><a href="#">지도</a></li>
+            <li class="white"><a href="#">영화</a></li>
+            <li class="white"><a href="#">뮤직</a></li>
+            <li class="white"><a href="#">책</a></li>
+            <li class="white"><a href="#">웹툰</a></li>
+        </ul>
+        
+        <hr />
+        <h1>연습용 블로그</h1> <!--여기는 블로그 제목-->
+        <hr />
+        
+        <h2>웹 개발 따라해보기</h2>
+        
+        <p>안녕하세요. <b>지수빈</b>입니다.
+        <br />이번 시간에는 <strong><ins>웹 개발</ins></strong>로 어떤 일을 할 수 있는지 알아보고 직접 코딩을 해보겠습니다.</p>
+        
+        <!--여기는 이미지 연습-->
+        <img src="http://cdn.pixabay.com/photo/2017/03/30/13/33/photography-2188440_960_720.jpg" alt="포토그래피" />
+        <a href="http://acciolabs.kr" target="_blank"><img src="img/02.jpg" width="500" alt="원피스" title="원피스 스포일러&번역사이트" /></a>
+        <p>
+            <a href="http://acciolabs.kr" target="_blank">
+                <img src="img/btn.png" width="200" />
+            </a>
+        </p>
+        <div id="banner">
+            <a href="http://acciolabs.kr" target="_blank">
+                <input type="button" value="아씨오랩스 바로가기" id="accio">
+            </a>
+        </div>
+        <!--여기는 리스트 연습-->
+        <ol>
+            <li>모든 플랫폼 호환 가능</li>
+            <li>자유로운 웹 탐색</li>
+            <li>강력한 확장성</li>
+        </ol>
+       
+        <ul>
+            <li>ul은 순서가 정해지지 않은 목록</li>
+            <li>ol은 번호가 매겨진 목록</li>
+        </ul>
+
+        <!--여기는 테이블 연습-->
+        <table border="1">
+            <tr>
+                <td class="pretty" align="center" width="100" height="50">HTML</td>
+                <td align="center" width="100" height="50">CSS</td>
+            </tr>
+            <tr>
+                <td align="center" width="100" height="50">
+                    <input type="button" value="JavaScript" size="big" />
+                </td>
+                <td width="100" height="50">웹 개발</td>
+            </tr>
+        </table>
+
+        <!--여기는 폼 연습-->
+        <p>
+            <form>
+                <input type="text" name="username" placeholder="아이디를 입력하세요" />
+                <input type="password" name="password" placeholder="패스워드를 입력하세요" />
+            </form>
+        </p>
+
+        <p>
+            <form>
+                <input type="radio" name="age" value="adult" checked>성인</input>
+                <input type="radio" name="age" value="youth">청소년</input>
+                <input type="radio" name="age" value="child">어린이</input>
+            </form>
+        </p>
+        <p>
+            <form>
+                <input type="checkbox" name="browser" value="chrome">크롬</input>
+                <input type="checkbox" name="browser" value="firefox">파이어폭스</input>
+                <input type="checkbox" name="browser" value="edge">엣지</input>
+                <input type="checkbox" name="browser" value="safari">사파리</input>
+                <input type="checkbox" name="browser" value="opera">오페라</input>
+            </form>
+        </p>
+        <p>
+            <form>
+                <input type="button" value="버튼입니다" />
+                <input type="email" name="email" placeholder="이메일 주소 입력" />
+                <input type="tel" name="telephone" placeholder="전화번호 입력" />
+                <input type="url" name="hamepage" placeholder="웹 주소 입력" />
+            </form>
+        </p>
+
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/saDuNUsEB0Q" 
+            frameborder="0" gesture="media" allowfullscreen></iframe>
+
+            <div id="scroll"><!--여기는 텍스트 연습-->
+                <p style="color:black;">안녕하세요!</p> <!--인라인 css문법 집어넣기-->
+                <p class="sweet">웹 개발!</p> <!--클래스 연습-->
+                <p>웹의 <span class="sweet">세계로 </span>빠져봅시다</p>
+                <p>눈에 잘 띄이는 <span class="power">빨강</span></p>
+                <p>CSS 연습하자</p>
+        
+                <p><h1>웹 개발은 정말 재밌습니다!</h1></p>
+                <p>여러분도 한 번 해보세요!</p>
+                <p>이것은 <b>굵은 글자</b>입니다.</p>
+                <p>이것은 <strong>강조된 글자</strong>입니다.</p>
+                <p>이것은 <i>기울어진 글자</i>입니다.</p>
+                <p>이것은 <ins>밑줄이 쳐진 글자</ins>입니다.</p>
+                <p>이것은 <del>취소선이 그어진 글자</del>입니다.</p>
+                <p>이것은 <sub>아래 첨자</sub>입니다.</p>
+                <p>이것은 <sup>아래 첨자</sup>입니다.</p>
+            </div>
+  
+
+    </body>
+</html>    

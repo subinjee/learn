@@ -1,0 +1,104 @@
+/*style.css*/
+.top {
+    text-align: center;
+    font-size: 20pt;
+    color: white; 
+    max-width: 1920px;
+    min-width: 500px;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    padding: 100px;
+
+}
+
+/*클래스연습*/
+.sweet {
+    color: blue;
+}
+
+/*리스트컬러바꾸기*/
+ol li {
+    font-size: 24pt;
+    color: orange;
+    background-color: ivory;
+}
+
+/*테이블 클래스 지정*/
+td.pretty {
+    color: green;
+    background-color: black;
+}
+
+/*p의 자식 요소 class power*/
+p .power {
+    color: red;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 나눔스퀘어, sans-serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#accio {
+    width: 200px;
+    height: 60px;
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    text-align: center;
+    color: darkcyan;
+    background-color: white;
+    font-size: 16px;
+    margin: 100px;
+    font-weight: bold;
+    background-image: url('img/bg.jpg');
+}
+
+#banner {
+    width:1200px;
+    height: 200px;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#scroll {
+    widows: 600px;
+    height:300px;
+    overflow: scroll;
+    background-image: url('img/btn.png');
+    background-repeat: no-repeat;
+    
+}
+
+/*메뉴만들기*/
+ul {
+    max-width: 1920px;
+    min-width: 500px;
+    height:40px;
+    background: #444444;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+ul li{
+    float: left;
+    margin-right: 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+.white a {
+    color:white;
+}
